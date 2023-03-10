@@ -21,9 +21,7 @@
 	color: #852533 !important;
 }
 
-.header-nav 
-    .header-nav-item--folder 
-    .header-nav-folder-content {
+.header-nav .header-nav-item--folder .header-nav-folder-content {
 	padding: 0px;
 }
 
@@ -44,8 +42,6 @@
 	background: #99bfe9;
 }
 
-.header-actions--right 
-    .header-actions-action--social 
-    .icon:hover {
-    color: #99BFE9;
+.header-actions--right .header-actions-action--social .icon:hover {
+	color: #99bfe9;
 }
