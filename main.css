@@ -1,0 +1,23 @@
+/* primary #852533 */
+/* secondary #99BFE9 */
+/* alternate #F7F2F4 */
+
+:not(.header--menu-open) .header-nav-folder-content,
+:not(.header--menu-open) .language-picker-content {
+	border-left: 1px solid #f7f2f4;
+	border-bottom: 1px solid #f7f2f4;
+	border-right: 1px solid #f7f2f4;
+}
+
+.header-nav-item {
+	margin: 0 !important;
+	padding: 0 0.7vw !important;
+}
+
+.header-nav-item:hover {
+	background: #f7f2f4;
+}
+
+.header-nav-item:hover a {
+	color: #852533;
+}
