@@ -4,9 +4,8 @@
 
 :not(.header--menu-open) .header-nav-folder-content,
 :not(.header--menu-open) .language-picker-content {
-	border-left: 1px solid #f7f2f4;
-	border-bottom: 1px solid #f7f2f4;
-	border-right: 1px solid #f7f2f4;
+	border: none;
+	background: #f7f2f4;
 }
 
 .header-nav-item {
@@ -19,5 +18,34 @@
 }
 
 .header-nav-item:hover a {
-	color: #852533;
+	color: #852533 !important;
+}
+
+.header-nav 
+    .header-nav-item--folder 
+    .header-nav-folder-content {
+	padding: 0px;
+}
+
+.header-nav
+	.header-nav-item--folder
+	.header-nav-folder-content
+	.header-nav-folder-item
+	a {
+	font-size: calc((1.8 - 1) * 1.2vw + 0.75rem);
+	padding: 0.5rem 1rem;
+}
+
+.header-nav
+	.header-nav-item--folder
+	.header-nav-folder-content
+	.header-nav-folder-item
+	a:hover {
+	background: #99bfe9;
+}
+
+.header-actions--right 
+    .header-actions-action--social 
+    .icon:hover {
+    color: #99BFE9;
 }
