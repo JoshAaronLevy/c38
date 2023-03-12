@@ -45,3 +45,7 @@
 .header-actions--right .header-actions-action--social .icon:hover {
 	color: #99bfe9;
 }
+
+.sqsrte-scaled-text h4 a {
+	text-decoration: none;
+}
