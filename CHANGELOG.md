@@ -3,6 +3,7 @@
 ## Pre-Meeting Notes
 
 - Need SSL cert for the website [LetsEncrypt](https://letsencrypt.org/getting-started/)
+- Need to do some touch-ups to layout and design on mobile (minor alignment fixes and such)
 
 ### Home Page
 
